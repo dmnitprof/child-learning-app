@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приложение для детей</title>
+  </head>
+  <body>
+    <div id="app">
+      <audio autoplay="autoplay" loop="loop">
+        <source src="./assets/audio/track_1.mp3" type="audio/mpeg"/>
+      </audio>
+      <div class="videos">
+        <video class="video" autoplay="autoplay"  preload="auto" loop="loop" muted="muted">
+          <source src="./assets/video/backVideo.webm" type="video/webm"/>
+        </video>
+      </div>
+      <div class="training-area">
+        <div class="start">
+        <h1 id="blink">обучающая программа для детей</h1>
+        <button class="start__btn" type="button">начать игру</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
